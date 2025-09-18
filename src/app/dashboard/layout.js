@@ -49,7 +49,7 @@ export default async function OnboardingLayout({ children }) {
 
         {/* Right: Form */}
         <div className="w-[60vw] max-w-[80%] flex flex-col bg-[#E9E9E9] h-[100vh] overflow-hidden">
-          <div className="h-[100vh] max-w-[100%]">{children}</div>
+          <div className="flex-1 min-h-0 max-w-[100%]">{children}</div>
         </div>
       </div>
     </FormProvider>
